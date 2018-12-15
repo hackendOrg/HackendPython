@@ -1,0 +1,4 @@
+remove dist, build, HackendUtils.egg-info dirs
+
+python setup.py sdist bdist_wheel
+twine upload dist/*
