@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="HackendUtils",
-    version="0.0.5",
+    version="0.0.6",
     author="Hackend",
     author_email="office@hackend.org",
-    description="utils for face recognition project",
+    description="utils for hackend's python projects",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/hackendOrg/HackendPython",
