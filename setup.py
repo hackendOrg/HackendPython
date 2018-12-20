@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="HackendUtils",
-    version="0.0.6",
+    version="0.0.7",
     author="Hackend",
     author_email="office@hackend.org",
     description="utils for hackend's python projects",

@@ -1,6 +1,14 @@
 remove dist, build, HackendUtils.egg-info dirs
 
 upload version in setup.py
+
+
+if not installed:
+    pip install twine
+
 run below:
     python setup.py sdist bdist_wheel
     twine upload dist/*
+
+userName: hackend
+password: RegularPassword.textVal +RegularPassword.numVal+RegularPassword.textVal
